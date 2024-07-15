@@ -1,5 +1,16 @@
 # Vite example: preserving class names in library
 
+## Running the example
+
+To start the example run the following commands after cloning the repository:
+
+```bash
+npm install
+npm start
+```
+
+## Description of the problem
+
 When building libraries with Vite one of the undesired effects is that class names are minified which results in their output being different than expected.
 
 For example, let's assume there is a `Person` class in the library like so:
