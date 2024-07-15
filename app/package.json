@@ -5,10 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest -w"
   },
   "devDependencies": {
-    "vite": "^5.3.3"
+    "util-inspect": "^0.1.8",
+    "vite": "^5.3.3",
+    "vitest": "^2.0.2"
   },
   "dependencies": {
     "library": "*"

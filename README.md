@@ -114,3 +114,5 @@ As you can see not only is the `Person` class name changed to `_Person` but the 
 ## Final thoughts
 
 The conclusion is that if one wants to preserve the names of classes one should use the `build.minifyIdentifiers: false` option _without_ setting the `build.keepNames = true`, which guarantees that the identifier is acutally preserved and no further modifications to names of classes is done.
+
+It is also worth noting that the final build of the application using a library like that, if there are no minification options specified, will still contain minified class names. It is the desired result, since the final output is meant to be as small as possible but it doesn't interfere with any internal implementations, such as for example when writing tests and doing a direct string comparison.
