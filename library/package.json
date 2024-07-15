@@ -1,0 +1,19 @@
+{
+  "name": "library",
+  "version": "0.0.1",
+  "exports": {
+    ".": {
+      "default": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build -w"
+  },
+  "devDependencies": {
+    "typescript": "5.4.2",
+    "vite": "^5.3.3",
+    "vite-plugin-dts": "^3.9.1"
+  }
+}

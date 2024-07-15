@@ -1,0 +1,6 @@
+{
+  "workspaces": [
+    "library",
+    "app"
+  ]
+}
