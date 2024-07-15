@@ -2,5 +2,12 @@
   "workspaces": [
     "library",
     "app"
-  ]
+  ],
+  "scripts": {
+    "start": "mrdr",
+    "build": "npm run build --workspaces --if-exists"
+  },
+  "devDependencies": {
+    "mrdr": "^0.1.3"
+  }
 }

@@ -6,9 +6,6 @@ export default defineConfig({
     dts({ rollupTypes: true }),
   ],
   build: {
-    watch: {
-      buildDelay: 1000,
-    },
     lib: {
       entry: './src/index.ts',
       name: 'library',

@@ -1,15 +1,16 @@
 {
   "name": "library",
   "version": "0.0.1",
+  "type": "module",
   "exports": {
     ".": {
-      "default": "./dist/index.mjs",
+      "default": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
   },
   "scripts": {
-    "build": "vite build",
-    "dev": "vite build -w"
+    "dev": "vite build -w",
+    "build": "vite build"
   },
   "devDependencies": {
     "typescript": "5.4.2",
