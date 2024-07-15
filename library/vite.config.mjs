@@ -8,9 +8,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: './src/index.ts',
-      name: 'library',
       formats: ['es'],
-      fileName: 'index',
     }
   },
   esbuild: {

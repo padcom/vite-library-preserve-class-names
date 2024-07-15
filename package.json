@@ -5,7 +5,7 @@
   ],
   "scripts": {
     "start": "mrdr",
-    "build": "npm run build --workspaces --if-exists"
+    "build": "mrdr run build"
   },
   "devDependencies": {
     "mrdr": "^0.1.3"

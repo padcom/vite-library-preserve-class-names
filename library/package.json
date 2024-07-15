@@ -4,7 +4,7 @@
   "type": "module",
   "exports": {
     ".": {
-      "default": "./dist/index.js",
+      "default": "./dist/library.js",
       "types": "./dist/index.d.ts"
     }
   },
